@@ -5,7 +5,7 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--input',
-                        help='Path to image/video file')
+                        help='Path to image/video file', default="")
     parser.add_argument('--model', type=str, default='model.keras',
                         help='Cnn model path')
     parser.add_argument('--output', type=str, default='output.mp4',
