@@ -17,6 +17,9 @@ Install dependencies
   pip install -r ./requirements.txt
 ```
 
+Create the model
+- The model is trained using [GTSRB](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/code?datasetId=82373&searchQuery=label) and [Flickr](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset/data) 
+
 
 
 ## Usage
